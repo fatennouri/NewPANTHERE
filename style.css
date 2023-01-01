@@ -40,7 +40,7 @@ a:hover {
 .text-center {
   text-align: center;
 }
-.logo-contact{
+.logo-contact {
   border-radius: 50%;
   width: 50%;
 }
@@ -88,9 +88,9 @@ a:hover {
   left: 0;
   right: 0;
 }
-ul{
-list-style-type: none;
-justify-content:space-between ;
+ul {
+  list-style-type: none;
+  justify-content: space-between;
 }
 .texture-paper::before {
   background-size: 280px 280px;
@@ -285,7 +285,9 @@ justify-content:space-between ;
   line-height: 44px;
 }
 .navbar-brand img {
+  height: 60px;
   max-height: 200px;
+  min-width: 100px;
   margin: 0 5px 0 0;
   display: inline;
 }
@@ -380,7 +382,7 @@ justify-content:space-between ;
   .navbar {
     width: 100%;
   }
-  .col-sm-12{
+  .col-sm-12 {
     width: 100%;
   }
 }
@@ -473,7 +475,7 @@ button {
   box-shadow: none;
   height: 50px;
   width: 100%;
-  border-radius: 4PX;
+  border-radius: 4px;
 }
 .scrollToTop {
   width: 40px;
@@ -807,7 +809,7 @@ h4 {
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
   }
-  .flex{
+  .flex {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
