@@ -34,12 +34,16 @@ a:hover {
   background-size: cover;
   position: relative;
 }
+.text-center{
+  text-align: center;
+}
 .bloc .container {
   padding-left: 0;
   padding-right: 0;
 }
 .bloc-lg {
   padding: 100px 50px;
+  text-align: center;
 }
 .bloc-md {
   padding: 50px;
@@ -78,7 +82,6 @@ a:hover {
   right: 0;
 }
 .texture-paper::before {
-  background: url("img/texture-paper.webp");
   background-size: 280px 280px;
 }
 .b-parallax {
@@ -240,6 +243,10 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
   padding-right: 0;
   padding-left: 0;
+}
+.row h2{
+  margin: auto;
+  max-width: 60rem;
 }
 #bloc-1-hero h1 {
   font-size: 32px;
@@ -616,7 +623,7 @@ h3 {
   box-shadow: 0px 0px 0px #000000;
 }
 h1 {
-  color: #333333 !important;
+  color: white!important;
 }
 h4 {
   color: #333333 !important;
@@ -626,7 +633,7 @@ h4 {
   margin-top: 24px;
 }
 .white {
-  color: #ffffff !important;
+  color: black !important;
 }
 .portfolio-thumb {
   margin-bottom: 24px;
@@ -653,14 +660,14 @@ h4 {
   background-color: #364577;
 }
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+ background-color:#f3976C;
 }
 .tc-white {
-  color: black !important;
+  color: white !important;
 }
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: black !important;
 }
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
@@ -681,9 +688,6 @@ h4 {
 .icon-dark-slate-blue {
   color: #364577 !important;
   border-color: #364577 !important;
-}
-.bg-dots-bg {
-  background-image: url("img/dots-bg.webp");
 }
 .bg-lines-h2-bg {
   background-image: url("img/lines-h2-bg.webp");
