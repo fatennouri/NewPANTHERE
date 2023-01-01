@@ -9,7 +9,6 @@ body {
 a,
 button {
   transition: all 0.3s ease-in-out;
-  outline: none !important;
 }
 a:hover {
   text-decoration: none;
@@ -350,6 +349,9 @@ a:hover {
   .nav-center.mini-nav .navbar-toggle {
     float: none;
     margin: 10px auto 0;
+  }
+  .navbar{
+    width: 100%;
   }
 }
 .nav > li > .dropdown a {
